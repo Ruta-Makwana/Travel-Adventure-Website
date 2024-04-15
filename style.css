@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(246, 246, 245);
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+h1{
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+}
+.navUl{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navLi{
+    display: inline-block;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+.navA{
+    color: white;
+    text-decoration: none;
+}
+.discover{
+    text-align: center;
+    padding: 100px;
+}
+.discoverH2{
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+.discoverA{
+    text-decoration: none;
+    display:inline-block;
+    background-color: #f05a28;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.discoverA:hover{
+    background-color: #b3421c;
+}
+.discoverP{
+    font-size: 20px;
+}
+.featured{
+    text-align: center;
+    padding: 10px;
+}
+.featuredH2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.city{
+    margin: 20px;
+    padding: 20px;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.cityImg{
+    width: 450px;
+    border-radius: 5px;
+}
+.cityH3{
+    font-size: 24px;
+    margin: 10px;
+    padding: 0px;
+}
+.cityP{
+    margin: 0px;
+    padding: 0px;
+}
+
+.subscribe{
+    text-align: center;
+    background-color: #f05a28;
+    color: white;
+    padding: 60px;
+    margin-top: 30px;
+}
+.subscribeH3{
+    font-size: 36px;
+    padding: 0px;
+    margin: 0px;
+}
+.subscribeP{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.subscribeInput{
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    width: 1100px;
+}
+.subscribeButton{
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    margin: 0px;
+    background-color: rgb(44,44,44);
+    color: white;
+}
+.subscribeButton:hover{
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(44,44,44);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
